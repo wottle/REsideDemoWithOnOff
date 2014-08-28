@@ -1,5 +1,10 @@
 # RESideMenu
 
+
+This is a slightly modified version of the ReSideMenu here: https://github.com/romaonthego/RESideMenu
+
+I have modified it to allow ViewControllers to conform to a new protocol which allows them to return whether a menu should be allowed.  This allows the view controller to determine whether to offer the slideout menu functionality.
+
 iOS 7 style side menu with parallax effect inspired by Dribbble shots ([first](http://dribbble.com/shots/1116265-Instasave-iPhone-App) and [second](http://dribbble.com/shots/1114754-Social-Feed-iOS7)).
 
 Since version 4.0 you can add menu view controllers on both left and right sides of your content view controller.
